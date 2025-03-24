@@ -8,7 +8,7 @@ Description: This package is mostly an R wrapper for the excellent chroma.js lib
 License: GPL-3
 LazyData: TRUE
 Encoding: UTF-8
-Depends: R (>= 2.10)
+Depends: R (>= 3.6)
 Imports:
     V8,
     grid,
