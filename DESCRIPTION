@@ -16,7 +16,7 @@ Imports:
     scales,
     stringr,
     stats
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.2
 Suggests:
     testthat,
     ggplot2,
