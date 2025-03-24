@@ -28,3 +28,12 @@
 
 #' @rdname thai
 "thaixyz"
+
+
+#' Scientific Colour Maps
+#' @source https://www.fabiocrameri.ch/colourmaps/
+"scicol"
+
+#' Scientific Colour Maps Info
+#' @source https://www.fabiocrameri.ch/colourmaps/
+"scicol_info"
