@@ -1,3 +1,7 @@
+> [!NOTE]
+> This fork of [jiho/chroma](https://github.com/jiho/chroma) contains
+> changes to the documentation, examples and tests to pass `R CMD check`
+
 # chroma
 
 `chroma` is a [R](https://www.r-project.org) package for parsing and
@@ -12,7 +16,7 @@ javascript library by [Gregor Aisch](http://driven-by-data.net).
 package `devtools` and
 
 ``` r
-devtools::install_github("jiho/chroma")
+remotes::install_github("polettif/chroma")
 library("chroma")
 ```
 

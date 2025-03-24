@@ -12,6 +12,14 @@ output:
 ```{r options, echo=FALSE}
 knitr::opts_chunk$set(comment="#", tidy=FALSE)
 ```
+
+<!-- [ and ] will be escaped by devtools::build_readme(), so we need to fix it manually afterwards... -->
+```{r note, echo=FALSE, results='asis'}
+cat('> [!NOTE]') 
+```
+
+> This fork of [jiho/chroma](https://github.com/jiho/chroma) contains changes to the documentation, examples and tests to pass `R CMD check`
+
 # chroma
 
 `chroma` is a [R](https://www.r-project.org) package for parsing and formating colors in various specifications, manipulating colors, and creating nice color scales and palettes. Much of the functionality is based on the excellent [chroma.js](https://github.com/gka/chroma.js/) javascript library by [Gregor Aisch](http://driven-by-data.net).
@@ -21,7 +29,7 @@ knitr::opts_chunk$set(comment="#", tidy=FALSE)
 `chroma` is not on CRAN yet. To get it from this page, install the package `devtools` and
 
 ```{r install, eval=F}
-devtools::install_github("jiho/chroma")
+remotes::install_github("polettif/chroma")
 library("chroma")
 ```
 ```{r load, echo=F}
