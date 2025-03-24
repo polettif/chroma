@@ -23,4 +23,3 @@ Suggests:
     knitr,
     rmarkdown,
     colorspace
-VignetteBuilder: knitr
