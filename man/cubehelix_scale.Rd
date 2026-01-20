@@ -201,7 +201,7 @@ detach(iris)
 
 }
 \references{
-\url{https://www.mrao.cam.ac.uk/~dag/CUBEHELIX/}
+\url{https://people.phy.cam.ac.uk/dag9/CUBEHELIX/}
 }
 \seealso{
 Other color scales and palettes: 

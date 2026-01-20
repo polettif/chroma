@@ -2,7 +2,7 @@
 #
 # Use the \code{\link[V8]{v8}} function of package \code{V8} to create the context and evaluate the code of chroma.js, thus making all functions available.
 #
-# @seealso \code{\link[V8]{v8}} and \url{http://gka.github.io/chroma.js/}
+# @seealso \code{\link[V8]{v8}} and \url{https://gka.github.io/chroma.js/}
 #
 # @examples
 # ct <- v8_chroma_context()
@@ -56,7 +56,7 @@ v8_vsup_context <- function() {
 #
 # Use the \code{\link[V8]{v8}} function of package \code{V8} to create the context and evaluate the code of chroma.js and vsup.js, thus making all functions available.
 #
-# @seealso \code{\link[V8]{v8}}, \url{http://gka.github.io/chroma.js/}, and \url{https://github.com/uwdata/vsup}
+# @seealso \code{\link[V8]{v8}}, \url{https://gka.github.io/chroma.js/}, and \url{https://github.com/uwdata/vsup}
 #
 # @examples
 # ct <- v8_all_context()
