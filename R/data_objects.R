@@ -23,7 +23,7 @@
 #'   \item{x,y}{x and y coordinates, in degrees.}
 #'   \item{z}{altitudes, in m.}
 #' }
-#' @source Extracted from NOAA's NGDC database (\url{https://maps.ngdc.noaa.gov/viewers/wcs-client/}) and regridded.
+#' @source Extracted from NOAA's NGDC database (\code{https://maps.ngdc.noaa.gov/viewers/wcs-client/}) and regridded.
 "thai"
 
 #' @rdname thai
