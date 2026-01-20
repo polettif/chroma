@@ -20,10 +20,10 @@ Imports:
     grDevices,
     scales,
     stringr,
-    stats
+    stats,
+    ggplot2
 Suggests:
     testthat,
-    ggplot2,
     knitr,
     rmarkdown,
     colorspace
