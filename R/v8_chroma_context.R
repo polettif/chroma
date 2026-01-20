@@ -15,7 +15,7 @@ v8_chroma_context <- function() {
   file <- system.file("chroma.min.js", package="chroma")
 
   # read the file and make it into a single character scalar
-  chromajs <- scan(file, what="character", skip=57, sep="\n", quiet=T)
+  chromajs <- scan(file, what="character", skip=57, sep="\n", quiet=TRUE)
   chromajs <- paste(chromajs, collapse="")
 
   # create the context
@@ -44,7 +44,7 @@ v8_vsup_context <- function() {
   # as above, for chroma.js
   file <- system.file("vsup.min.js", package="chroma")
 
-  vsupjs <- scan(file, what="character", sep="\n", quiet=T)
+  vsupjs <- scan(file, what="character", sep="\n", quiet=TRUE)
 
   ct <- v8()
   ct$eval(vsupjs)
@@ -69,10 +69,10 @@ v8_all_context <- function() {
   file <- system.file("chroma.min.js", package="chroma")
 
   # read the file and make it into a single character scalar
-  chromajs <- scan(file, what="character", skip=57, sep="\n", quiet=T)
+  chromajs <- scan(file, what="character", skip=57, sep="\n", quiet=TRUE)
   chromajs <- paste(chromajs, collapse="")
   file <- system.file("vsup.min.js", package="chroma")
-  vsupjs <- scan(file, what="character", sep="\n", quiet=T)
+  vsupjs <- scan(file, what="character", sep="\n", quiet=TRUE)
 
   # create the context
   ct <- v8()

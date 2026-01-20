@@ -103,9 +103,9 @@ deltaE_lab <- function(x1, x2) {
   } else {
     if (abs(diffhprime) <= 180) {
       hbarprime <- sumhprime / 2
-    } else if (abs(diffhprime) > 180 & sumhprime < 360) {
+    } else if (abs(diffhprime) > 180 && sumhprime < 360) {
       hbarprime <- (sumhprime + 360) / 2
-    } else if (abs(diffhprime) > 180 & sumhprime >= 360) {
+    } else if (abs(diffhprime) > 180 && sumhprime >= 360) {
       hbarprime <- (sumhprime - 360) / 2
     } else {
       stop("Should not be possible")
